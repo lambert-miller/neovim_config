@@ -23,6 +23,11 @@ Neorg installation (inside nvim):
 :Neorg sync-parsers
 ```
 
+For telescope word search:
+```
+sudo apt install ripgrep
+```
+
 ## Usage
 Neorg prefix: ','
 
