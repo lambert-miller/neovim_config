@@ -31,9 +31,17 @@ sudo apt install ripgrep
 ## Usage
 Neorg prefix: ','
 
+#### VimTex on Ubuntu
+```
+sudo apt install latexmk zathura
+sudo apt install texlive-latex-recommended texlive-pictures texlive-latex-extra
+pip3 install neovim-remote
+```
+
 ## LaTeX support support on Windows:
 1. install Perl (https://strawberryperl.com/)
     - (?) also used for fuzzy finding through workspace?
 2. install MikTex (https://miktex.org/)
     - install latexmk package (compiler)
 3. install SumatraPDF (MS Store)
+    - Inverse search: cmd /c start /min "" nvim --headless -c "VimtexInverseSearch %l '%f'" 

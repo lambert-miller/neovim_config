@@ -27,7 +27,7 @@ require("astronvim.utils").conditional_func(astronvim.user_opts("polish", nil, f
 -- might not be required, forgot why it was added
 require("nvim-treesitter.install").compilers = { "clang" }
 
--- vimtex compiler, might not be required
+-- for inverse search?
 vim.g.vimtex_compiler_programe = "nvr"
 
 -- colorscheme
