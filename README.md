@@ -28,8 +28,8 @@ For telescope word search:
 sudo apt install ripgrep
 ```
 
-## Usage
-Neorg prefix: ','
+#### Usage
+Neorg prefix: space -> ,
 
 #### VimTex on Ubuntu
 ```
@@ -38,7 +38,7 @@ sudo apt install texlive-latex-recommended texlive-pictures texlive-latex-extra
 pip3 install neovim-remote
 ```
 
-## LaTeX support support on Windows:
+#### LaTeX support support on Windows:
 1. install Perl (https://strawberryperl.com/)
     - (?) also used for fuzzy finding through workspace?
 2. install MikTex (https://miktex.org/)
