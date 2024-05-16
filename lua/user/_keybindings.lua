@@ -19,11 +19,15 @@ end
 -- ======== Obsidian ==========
 -- Keymap to open Neorg workspace.
 vim.api.nvim_set_keymap("n", "<leader>,s", [[<cmd>ObsidianSearch<CR>]], { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>,n", [[<cmd>ObsidianNew<CR>]], { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>,w", [[<cmd>ObsidianWorkspace<CR>]], { noremap = true, silent = true })
 
 -- Naming the keybinding for the menu (folke/which-key.nvim)
 require("which-key").register {
   ["<leader>,"] = { "Obsidian" },
-  ["<leader>,s"] = { "Obsidian Search" },
+  ["<leader>,s"] = { "Search" },
+  ["<leader>,n"] = { "New File" },
+  ["<leader>,w"] = { "Workspaces" },
 }
 
 -- -- ========= Neorg ===========
