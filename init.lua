@@ -35,3 +35,4 @@ require "plugins.configs._gruvbox_config"
 
 -- custom keybindings
 require "user._keybindings"
+
