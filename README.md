@@ -38,6 +38,12 @@ sudo apt install texlive-latex-recommended texlive-pictures texlive-latex-extra
 pip3 install neovim-remote
 ```
 
+#### Lazygit
+https://github.com/jesseduffield/lazygit
+
+#### Obsidian
+- Create workspace structure as stated in config.
+
 #### LaTeX support support on Windows:
 1. install Perl (https://strawberryperl.com/)
     - (?) also used for fuzzy finding through workspace?
