@@ -8,6 +8,9 @@ Slightly altered Astro Vim (https://github.com/AstroNvim/AstroNvim)
 Install dependencies
 - nvim newest version
 - lua (v5.1 as of 04.05.24)
+```
+sudo apt install lua5.1 liblua5.1-dev
+```
 - clang
 - Nerdfont (https://www.nerdfonts.com/font-downloads)
     - Move to ~/.local/share/fonts
@@ -26,6 +29,12 @@ Neorg installation (inside nvim):
 For telescope word search:
 ```
 sudo apt install ripgrep
+```
+Clipboard: (maybe also work by previously installing vim-gtk3?)
+```
+sudo apt install xclip
+:set clipboard=unnamedplus # run in neovim, requires restart
+:echo has('clipboard') # confirm
 ```
 
 #### Usage
