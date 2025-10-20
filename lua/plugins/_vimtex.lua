@@ -119,8 +119,8 @@ return {
       vim.cmd "syntax enable"
 
       -- Configure viewer options
-      vim.g.vimtex_view_method = "zathura" -- Built-in viewer method
-      vim.g.vimtex_view_general_viewer = "zathura"
+      vim.g.vimtex_view_method = "sioyek" -- Built-in viewer method
+      vim.g.vimtex_view_general_viewer = "sioyek"
 
       -- For Windows -> using SumatraPDF
       -- vim.g.vimtex_view_general_viewer = "C:/Users/lmarx/AppData/Local/SumatraPDF/SumatraPDF.exe"
@@ -128,6 +128,7 @@ return {
 
       -- Set localleader
       vim.g.maplocalleader = ","
+      vim.g.vimtex_syntax_conceal_disable = 1
     end,
   },
 }
